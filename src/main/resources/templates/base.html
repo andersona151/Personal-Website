@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="header :: header"></head>
+	<body th:fragment="base">
+	
+	<header class="container-fluid p-3 text-white" id="navBar" style="background-color: black">
+	 	<div class="pos-f-t" style="background-color: black">
+			<nav class="navbar sticky-top navbar-dark " style="background-color: black">
+				<button class="navbar-toggler hvr-icon-spin" type="button" data-toggle="collapse" data-target="#navbarToggleNavContent" aria-controls="navbarToggleNavContent" aria-expanded="false" aria-label="Toggle navigation" style="background: #990099">
+		      		<span class="navbar-toggler-icon"></span>
+		    	</button>
+		    	
+				<div class="container">
+					<div class="row" style="width:200%" >
+						<div class="col-lg">
+						</div>
+					</div>
+				</div>		
+		    </nav>
+		    
+	    	<div class="container-fluid">
+				<div class="collapse" id="navbarToggleNavContent" align="center">
+					<div class="row">
+						<div class="col-lg"><a href="#" class="btn btn-outline-secondary btn-lg btn-block hvr-shutter-in-horizontal">Home</a></div>
+						<div class="col-lg"><a href="/resume" class="btn btn-outline-secondary btn-lg btn-block hvr-shutter-in-horizontal">Resume</a></div>
+						<div class="col-lg"><a href="https://github.com/andersona151" class="btn btn-outline-secondary btn-lg btn-block hvr-shutter-in-horizontal">Github</a></div>
+						<div class="col-lg"><a href="#" class="btn btn-outline-secondary btn-lg btn-block hvr-shutter-in-horizontal contact-btn">Contact</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	</body>
+
+
+</html>

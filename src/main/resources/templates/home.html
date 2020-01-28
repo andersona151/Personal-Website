@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="header :: head"></head>
+  <body  th:replace="base :: base"></body>
+  <div class=container-fluid style="background: black">
+  		<div class="row justify-content-center" id="content" style="display: block">
+  			<span class="overlay hvr-bob" id="mainName">Austin Anderson</span>
+  			<span class="overlay hvr-bob" id="myProTitle">Software Developer</span>
+  			<span class="bioLinks">
+  				<a class="hvr-push" id="emaiLink" aria-label="Send Email" href="mailto:anderson81716@gmail.com">
+  					<i class="far fa-envelope fa-4x" id="mailIcon" style="color: white; padding: 15px"></i>
+  				</a>
+  				<a class="hvr-push" id="LILink" aria-label="LinkedIn" href="https://www.linkedin.com/in/austin-anderson-7a4b18127/">
+  					<i class="fab fa-linkedin fa-4x" style="color: white; padding: 15px"></i>
+  				</a>
+  				<a class="hvr-push" id="resumeDownload" aria-label="Download Resume" href="resume.pdf" download>
+  					<i class="fas fa-download fa-3x" style="color: white; padding: 15px"></i>
+  				</a>	
+  			</span>
+  			<br>
+  			<h2 class="aboutMe">About Me</h2>
+  			<br>
+			<span class="bio">
+				<p>I'm a passionate and driven professional in a world run by technology. Experience in automation scripting, CI/CD DevOps habitat, web development and more! 
+				I am always on the lookout for the cutting edge tools, but I am very comfortable using the ones I have the most experience in: Python, Java, AngularJS, Django, SpringBoot, 
+				VBScript, JavaScript, ReactJS, HTML, CSS, Gradle etc!
+				</p>
+			</span>
+			<p> </p>
+			
+			<span class="bio">
+				<p>When I am not sharpening my professional skills you can find me enjoying my hobbies: gaming, streaming, working out, music, spending time with friends.</p>
+			</span>
+		</div>
+			<video autoplay muted loop id="myVideo" style="width: 100%; height: 100%">
+	  			<source src="img/PurpleGrid.mp4" type="video/mp4">
+			</video>
+	</div>
+  <div  th:replace="footer :: footer"></div>
+</html>

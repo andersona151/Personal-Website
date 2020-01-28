@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <div th:fragment="footer">
+     <!--  &copy; 2016 Footer -->
+     
+     <div class="container-fluid" style="background: black; padding: 20px">
+     	<div class="row justify-content-center">
+     		<span id="copyright">
+     			<i class="far fa-copyright" style="color: white; display: inline"></i><p style="color: white; display: inline"> 2020 Austin Anderson</p>
+     		</span>
+     	</div>
+     </div>
+    
+  
+		<script src="http://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://kit.fontawesome.com/305773b555.js" crossorigin="anonymous"></script>
+		
+		<script>
+		$('.contact-btn').click(function() {
+			var original_color = $('#mailIcon').css('color');
+			var mailIcon = $('#mailIcon');
+			mailIcon.effect('pulsate', {times:3}, 2000);
+		});
+
+		</script>
+		
+	</div>
+</html>
